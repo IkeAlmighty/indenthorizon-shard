@@ -37,9 +37,6 @@ playerServer.on("connection", (client) => {
   });
 });
 
-// TODO: every 48 hours, send the shard history from the last 49 hours
-// to the verification server:
-
 //TODO: every 96 hours, wipe the shard history all the way up to 48 hours ago:
 
 // TODO: every hour, store the shard history in persistant local storage
