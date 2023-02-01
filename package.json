@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.15",
+    "vm2": "^3.9.13",
     "ws": "^8.5.0"
   }
 }

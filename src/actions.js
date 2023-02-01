@@ -1,6 +1,8 @@
 const ShardState = require(`${__dirname}/state`);
 ShardState.loadFromPersistantStorage();
 
+const { NodeVM } = require("vm2");
+
 /**
  * An 'Action' object containing each action and its
  * implementation on the shard.
