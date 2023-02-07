@@ -1,8 +1,6 @@
 // import ShardActions
 const ShardActions = require(`${__dirname}/actions`);
-const { NodeVM } = require("vm2");
 
-const { NodeVM } = require("vm2");
 // import websocket
 const WebSocket = require("ws");
 
